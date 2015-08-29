@@ -15,6 +15,16 @@ app.service('searchService', function($http, $q, x2js) {
 
 		console.log('searchService > this.searchbooks');
 
+		$http({
+			method: 'GET',
+			url: '/api/goodreads?search=' + searchEntry
+		}).then(function(res){
+			dfd.resolve(res);
+			console.log(res);
+		}, function(err){
+			dfd.reject(err);
+			console.log(err);
+		});
 
 		// $.ajax({
   //           type: 'GET',
