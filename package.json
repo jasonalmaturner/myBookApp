@@ -14,5 +14,11 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/jasonalmaturner/myBookApp/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "cors": "~2.7.1",
+    "body-parser": "~1.13.3",
+    "request": "~2.61.0"
   }
 }
