@@ -16,9 +16,17 @@
     "url": "https://github.com/jasonalmaturner/myBookApp/issues"
   },
   "dependencies": {
+<<<<<<< HEAD
     "express": "~4.13.3",
     "cors": "~2.7.1",
     "body-parser": "~1.13.3",
     "request": "~2.61.0"
+=======
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "request": "^2.61.0",
+    "xml2js": "^0.4.10"
+>>>>>>> ed2a070c544dfb43193d651e381ae04bf663eed1
   }
 }

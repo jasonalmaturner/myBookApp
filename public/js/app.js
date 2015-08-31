@@ -11,6 +11,10 @@ app.config(function ($routeProvider) {
 		.when('/login', {
 
 		})
+		.when('/watchlist', {
+			templateUrl: 'js/watchlist/watchlistTmpl.html',
+			controller: 'watchlistCtrl'
+		})
 		.when('/search', {
 			templateUrl: 'js/search/searchTmpl.html',
 			controller: 'searchCtrl',
